@@ -1,0 +1,3 @@
+package("bidama-fuuin", "0.1.0")
+
+packages("bidamas")
