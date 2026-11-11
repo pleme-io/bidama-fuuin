@@ -1,0 +1,2 @@
+package("synod-refused", "0.1.0")
+allow(%i[entropy network])

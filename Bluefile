@@ -1,3 +1,6 @@
 package("bidama-fuuin", "0.1.0")
 
 packages("bidamas")
+
+check("synod", "tests/synod.b", ["tests"])
+check("heni-mutations", "gen/heni-gate.b", ["bidamas", "heni"])

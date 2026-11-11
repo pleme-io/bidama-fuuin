@@ -1,0 +1,2 @@
+package("synod-held", "0.1.0")
+allow(%i[mpc_threshold])

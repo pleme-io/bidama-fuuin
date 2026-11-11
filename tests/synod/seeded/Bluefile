@@ -1,0 +1,3 @@
+package("synod-seeded", "0.1.0")
+allow([])
+virtualize(:mpc_threshold, {using: :seeded, seed: "synod"})

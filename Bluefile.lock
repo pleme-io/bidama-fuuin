@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "bluefile_b3": "b3:122ed5e954ec5c990df9a31e1b99bd857045e5b172d67e41abdbcf392033b2b7",
+  "bluefile_b3": "b3:3659641aa9c32c0041b484a58089a05475424e7e8de796b1fba999061616e39b",
   "manifest": {
     "schema": 1,
     "name": "bidama-fuuin",
@@ -13,7 +13,21 @@
     ],
     "runs": {},
     "tools": [],
-    "checks": {},
+    "checks": {
+      "heni-mutations": {
+        "file": "gen/heni-gate.b",
+        "inputs": [
+          "bidamas",
+          "heni"
+        ]
+      },
+      "synod": {
+        "file": "tests/synod.b",
+        "inputs": [
+          "tests"
+        ]
+      }
+    },
     "apps": {},
     "catalog": null
   },
